@@ -20,5 +20,4 @@ Lastejobben som lager datasettet ligger i repo [kommune-data-lastejobb](https://
 
 ## Avhenger av
 
-- [kommune-data-lastejobb](https://github.com/Artsdatabanken/kommune-data-lastejobb) (lastejobb)
-- [Lastejobb](https://github.com/Artsdatabanken/lastejobb) (library)
+- [kommune-data-lastejobb](https://github.com/Artsdatabanken/kommune-kart-lastejobb) (lastejobb)
