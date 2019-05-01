@@ -19,7 +19,7 @@ Geometri/Kartfiler for Norske fylker og kommuner. Lastejobben som lager datasett
 
 ## Lastejobb
 
-- [kommune-kart-lastejobb](https://github.com/Artsdatabanken/kommune-kart-lastejobb
+- [kommune-kart-lastejobb](https://github.com/Artsdatabanken/kommune-kart-lastejobb)
 
 ### Leses av
 
