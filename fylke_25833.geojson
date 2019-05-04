@@ -11,10 +11,10 @@
     {
       "type": "Feature",
       "properties": {
-        "fylkesnummer": "01",
         "navn": {
-          "nor": "Østfold"
-        }
+          "nob": "Østfold"
+        },
+        "autorkode": "01"
       },
       "geometry": {
         "type": "Polygon",
@@ -24,10 +24,10 @@
     {
       "type": "Feature",
       "properties": {
-        "fylkesnummer": "02",
         "navn": {
-          "nor": "Akershus"
-        }
+          "nob": "Akershus"
+        },
+        "autorkode": "02"
       },
       "geometry": {
         "type": "Polygon",
@@ -37,10 +37,10 @@
     {
       "type": "Feature",
       "properties": {
-        "fylkesnummer": "03",
         "navn": {
-          "nor": "Oslo"
-        }
+          "nob": "Oslo"
+        },
+        "autorkode": "03"
       },
       "geometry": {
         "type": "Polygon",
@@ -50,10 +50,10 @@
     {
       "type": "Feature",
       "properties": {
-        "fylkesnummer": "04",
         "navn": {
-          "nor": "Hedmark"
-        }
+          "nob": "Hedmark"
+        },
+        "autorkode": "04"
       },
       "geometry": {
         "type": "Polygon",
@@ -63,10 +63,10 @@
     {
       "type": "Feature",
       "properties": {
-        "fylkesnummer": "05",
         "navn": {
-          "nor": "Oppland"
-        }
+          "nob": "Oppland"
+        },
+        "autorkode": "05"
       },
       "geometry": {
         "type": "Polygon",
@@ -76,10 +76,10 @@
     {
       "type": "Feature",
       "properties": {
-        "fylkesnummer": "06",
         "navn": {
-          "nor": "Buskerud"
-        }
+          "nob": "Buskerud"
+        },
+        "autorkode": "06"
       },
       "geometry": {
         "type": "Polygon",
@@ -89,10 +89,10 @@
     {
       "type": "Feature",
       "properties": {
-        "fylkesnummer": "07",
         "navn": {
-          "nor": "Vestfold"
-        }
+          "nob": "Vestfold"
+        },
+        "autorkode": "07"
       },
       "geometry": {
         "type": "Polygon",
@@ -102,10 +102,10 @@
     {
       "type": "Feature",
       "properties": {
-        "fylkesnummer": "08",
         "navn": {
-          "nor": "Telemark"
-        }
+          "nob": "Telemark"
+        },
+        "autorkode": "08"
       },
       "geometry": {
         "type": "Polygon",
@@ -115,10 +115,10 @@
     {
       "type": "Feature",
       "properties": {
-        "fylkesnummer": "09",
         "navn": {
-          "nor": "Aust-Agder"
-        }
+          "nob": "Aust-Agder"
+        },
+        "autorkode": "09"
       },
       "geometry": {
         "type": "Polygon",
@@ -128,10 +128,10 @@
     {
       "type": "Feature",
       "properties": {
-        "fylkesnummer": "10",
         "navn": {
-          "nor": "Vest-Agder"
-        }
+          "nob": "Vest-Agder"
+        },
+        "autorkode": "10"
       },
       "geometry": {
         "type": "Polygon",
@@ -141,10 +141,10 @@
     {
       "type": "Feature",
       "properties": {
-        "fylkesnummer": "11",
         "navn": {
-          "nor": "Rogaland"
-        }
+          "nob": "Rogaland"
+        },
+        "autorkode": "11"
       },
       "geometry": {
         "type": "Polygon",
@@ -154,10 +154,10 @@
     {
       "type": "Feature",
       "properties": {
-        "fylkesnummer": "12",
         "navn": {
-          "nor": "Hordaland"
-        }
+          "nob": "Hordaland"
+        },
+        "autorkode": "12"
       },
       "geometry": {
         "type": "Polygon",
@@ -167,10 +167,10 @@
     {
       "type": "Feature",
       "properties": {
-        "fylkesnummer": "14",
         "navn": {
-          "nor": "Sogn og Fjordane"
-        }
+          "nob": "Sogn og Fjordane"
+        },
+        "autorkode": "14"
       },
       "geometry": {
         "type": "Polygon",
@@ -180,10 +180,10 @@
     {
       "type": "Feature",
       "properties": {
-        "fylkesnummer": "15",
         "navn": {
-          "nor": "Møre og Romsdal"
-        }
+          "nob": "Møre og Romsdal"
+        },
+        "autorkode": "15"
       },
       "geometry": {
         "type": "Polygon",
@@ -193,10 +193,10 @@
     {
       "type": "Feature",
       "properties": {
-        "fylkesnummer": "18",
         "navn": {
-          "nor": "Nordland"
-        }
+          "nob": "Nordland"
+        },
+        "autorkode": "18"
       },
       "geometry": {
         "type": "Polygon",
@@ -206,11 +206,11 @@
     {
       "type": "Feature",
       "properties": {
-        "fylkesnummer": "19",
         "navn": {
-          "nor": "Troms",
+          "nob": "Troms",
           "sme": "Romsa"
-        }
+        },
+        "autorkode": "19"
       },
       "geometry": {
         "type": "Polygon",
@@ -220,11 +220,11 @@
     {
       "type": "Feature",
       "properties": {
-        "fylkesnummer": "20",
         "navn": {
-          "nor": "Finnmark",
+          "nob": "Finnmark",
           "sme": "Finnmárku"
-        }
+        },
+        "autorkode": "20"
       },
       "geometry": {
         "type": "Polygon",
@@ -234,10 +234,10 @@
     {
       "type": "Feature",
       "properties": {
-        "fylkesnummer": "50",
         "navn": {
-          "nor": "Trøndelag"
-        }
+          "nob": "Trøndelag"
+        },
+        "autorkode": "50"
       },
       "geometry": {
         "type": "Polygon",
@@ -247,7 +247,7 @@
   ],
   "meta": {
     "tittel": "Fylke 25833",
-    "produsertUtc": "2019-05-01T12:14:40.880Z",
+    "produsertUtc": "2019-05-04T12:20:16.156Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/kommune-kart/master/fylke_25833.geojson",
     "tool": {
