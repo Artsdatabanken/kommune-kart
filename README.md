@@ -7,17 +7,25 @@ Kartdata for Norske kommuner
 
 ## Datasett
 
-Lastejobben som lager datasettet ligger i repo [kommune-data-lastejobb](https://github.com/Artsdatabanken/kommune-data-lastejobb).
+Geometri/Kartfiler for Norske fylker og kommuner. Lastejobben som lager datasettet ligger i repo [kommune-kart-lastejobb](https://github.com/Artsdatabanken/kommune-kart-lastejobb).
 
-## Dataene brukes blant annet av
+## Dataflyt
+
+![Flytdiagram](./doc/flytdiagram.svg)
+
+### Datakilder (takk til)
+
+- [Kartverket](https://kartkatalog.geonorge.no/metadata/kartverket/administrative-enheter-kommuner/041f1e6e-bdbc-4091-b48f-8a5990f3cc5b)
+
+## Lastejobb
+
+- [kommune-kart-lastejobb](https://github.com/Artsdatabanken/kommune-kart-lastejobb)
+
+### Leses av
+
+- [nin-data-lastejobb](https://github.com/Artsdatabanken/nin-data-lastejobb)
+
+### Bruk i sluttprodukter
 
 - [Natur i Norge kart](https://github.com/Artsdatabanken/nin-kart-frontend)
 - [Artsdatabanken åpne data](https://data.artsdatabanken.no/)
-
-## Baserer seg på åpne data fra (takk til)
-
-- [Kartverket](https://www.kartverket.no/)
-
-## Avhenger av
-
-- [kommune-data-lastejobb](https://github.com/Artsdatabanken/kommune-kart-lastejobb) (lastejobb)
