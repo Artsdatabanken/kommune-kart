@@ -261,7 +261,7 @@
       }
     },
     {
-      "areal": 104729398,
+      "areal": 104729386,
       "autorkode": "0214",
       "bbox": [
         10.674112818783657,
@@ -1483,7 +1483,7 @@
       }
     },
     {
-      "areal": 1564109873,
+      "areal": 1564109887,
       "autorkode": "0712",
       "bbox": [
         9.755335684949564,
@@ -1522,7 +1522,7 @@
       }
     },
     {
-      "areal": 249933604,
+      "areal": 249933602,
       "autorkode": "0716",
       "bbox": [
         10.042613977953277,
@@ -1561,7 +1561,7 @@
       }
     },
     {
-      "areal": 790520947,
+      "areal": 790521182,
       "autorkode": "0806",
       "bbox": [
         9.227646991862635,
@@ -2042,7 +2042,7 @@
       }
     },
     {
-      "areal": 216649980,
+      "areal": 217433139,
       "autorkode": "1017",
       "bbox": [
         7.527298574861346,
@@ -2068,7 +2068,7 @@
       }
     },
     {
-      "areal": 396541499,
+      "areal": 395758341,
       "autorkode": "1021",
       "bbox": [
         7.385883029299205,
@@ -5232,7 +5232,7 @@
       }
     },
     {
-      "areal": 1002763134,
+      "areal": 1002763132,
       "autorkode": "5035",
       "bbox": [
         10.653928751365564,
@@ -5509,7 +5509,7 @@
   ],
   "meta": {
     "tittel": "Kommune meta",
-    "produsertUtc": "2019-05-05T08:44:15.586Z",
+    "produsertUtc": "2019-05-21T07:35:53.647Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/kommune-kart/master/kommune_meta.json",
     "tool": {
