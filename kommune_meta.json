@@ -3897,7 +3897,8 @@
         65.89171855571291
       ],
       "navn": {
-        "nob": "Hattfjelldal"
+        "nob": "Hattfjelldal",
+        "sma": "Aarborte"
       }
     },
     {
@@ -5509,7 +5510,7 @@
   ],
   "meta": {
     "tittel": "Kommune meta",
-    "produsertUtc": "2019-05-21T07:35:53.647Z",
+    "produsertUtc": "2019-08-15T16:47:06.794Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/kommune-kart/master/kommune_meta.json",
     "tool": {
