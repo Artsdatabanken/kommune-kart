@@ -14,7 +14,8 @@
         "navn": {
           "nob": "Østfold"
         },
-        "autorkode": "01"
+        "autorkode": "01",
+        "code": "AO-TO-FL-01"
       },
       "geometry": {
         "type": "Polygon",
@@ -27,7 +28,8 @@
         "navn": {
           "nob": "Akershus"
         },
-        "autorkode": "02"
+        "autorkode": "02",
+        "code": "AO-TO-FL-02"
       },
       "geometry": {
         "type": "Polygon",
@@ -40,7 +42,8 @@
         "navn": {
           "nob": "Oslo"
         },
-        "autorkode": "03"
+        "autorkode": "03",
+        "code": "AO-TO-FL-03"
       },
       "geometry": {
         "type": "Polygon",
@@ -53,7 +56,8 @@
         "navn": {
           "nob": "Hedmark"
         },
-        "autorkode": "04"
+        "autorkode": "04",
+        "code": "AO-TO-FL-04"
       },
       "geometry": {
         "type": "Polygon",
@@ -66,7 +70,8 @@
         "navn": {
           "nob": "Oppland"
         },
-        "autorkode": "05"
+        "autorkode": "05",
+        "code": "AO-TO-FL-05"
       },
       "geometry": {
         "type": "Polygon",
@@ -79,7 +84,8 @@
         "navn": {
           "nob": "Buskerud"
         },
-        "autorkode": "06"
+        "autorkode": "06",
+        "code": "AO-TO-FL-06"
       },
       "geometry": {
         "type": "Polygon",
@@ -92,7 +98,8 @@
         "navn": {
           "nob": "Vestfold"
         },
-        "autorkode": "07"
+        "autorkode": "07",
+        "code": "AO-TO-FL-07"
       },
       "geometry": {
         "type": "Polygon",
@@ -105,7 +112,8 @@
         "navn": {
           "nob": "Telemark"
         },
-        "autorkode": "08"
+        "autorkode": "08",
+        "code": "AO-TO-FL-08"
       },
       "geometry": {
         "type": "Polygon",
@@ -118,7 +126,8 @@
         "navn": {
           "nob": "Aust-Agder"
         },
-        "autorkode": "09"
+        "autorkode": "09",
+        "code": "AO-TO-FL-09"
       },
       "geometry": {
         "type": "Polygon",
@@ -131,7 +140,8 @@
         "navn": {
           "nob": "Vest-Agder"
         },
-        "autorkode": "10"
+        "autorkode": "10",
+        "code": "AO-TO-FL-10"
       },
       "geometry": {
         "type": "Polygon",
@@ -144,7 +154,8 @@
         "navn": {
           "nob": "Rogaland"
         },
-        "autorkode": "11"
+        "autorkode": "11",
+        "code": "AO-TO-FL-11"
       },
       "geometry": {
         "type": "Polygon",
@@ -157,7 +168,8 @@
         "navn": {
           "nob": "Hordaland"
         },
-        "autorkode": "12"
+        "autorkode": "12",
+        "code": "AO-TO-FL-12"
       },
       "geometry": {
         "type": "Polygon",
@@ -170,7 +182,8 @@
         "navn": {
           "nob": "Sogn og Fjordane"
         },
-        "autorkode": "14"
+        "autorkode": "14",
+        "code": "AO-TO-FL-14"
       },
       "geometry": {
         "type": "Polygon",
@@ -183,7 +196,8 @@
         "navn": {
           "nob": "Møre og Romsdal"
         },
-        "autorkode": "15"
+        "autorkode": "15",
+        "code": "AO-TO-FL-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -196,7 +210,8 @@
         "navn": {
           "nob": "Nordland"
         },
-        "autorkode": "18"
+        "autorkode": "18",
+        "code": "AO-TO-FL-18"
       },
       "geometry": {
         "type": "Polygon",
@@ -210,7 +225,8 @@
           "nob": "Troms",
           "sme": "Romsa"
         },
-        "autorkode": "19"
+        "autorkode": "19",
+        "code": "AO-TO-FL-19"
       },
       "geometry": {
         "type": "Polygon",
@@ -224,7 +240,8 @@
           "nob": "Finnmark",
           "sme": "Finnmárku"
         },
-        "autorkode": "20"
+        "autorkode": "20",
+        "code": "AO-TO-FL-20"
       },
       "geometry": {
         "type": "Polygon",
@@ -237,7 +254,8 @@
         "navn": {
           "nob": "Trøndelag"
         },
-        "autorkode": "50"
+        "autorkode": "50",
+        "code": "AO-TO-FL-50"
       },
       "geometry": {
         "type": "Polygon",
@@ -247,7 +265,7 @@
   ],
   "meta": {
     "tittel": "Fylke 25833",
-    "produsertUtc": "2019-05-04T12:20:16.156Z",
+    "produsertUtc": "2019-08-19T20:51:18.425Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/kommune-kart/master/fylke_25833.geojson",
     "tool": {
