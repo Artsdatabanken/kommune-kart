@@ -1,0 +1,137 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "crs": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "properties": {
+            "type": "object",
+            "properties": {
+              "navn": {
+                "type": "object",
+                "properties": {
+                  "nob": {
+                    "type": "string"
+                  },
+                  "sma": {
+                    "type": "string"
+                  },
+                  "smj": {
+                    "type": "string"
+                  },
+                  "sme": {
+                    "type": "string"
+                  },
+                  "fkv": {
+                    "type": "string"
+                  }
+                }
+              },
+              "autorkode": {
+                "type": "string"
+              },
+              "code": {
+                "type": "string"
+              }
+            }
+          },
+          "geometry": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string"
+              },
+              "coordinates": {
+                "type": "array",
+                "items": {
+                  "type": "array"
+                }
+              }
+            }
+          }
+        },
+        "required": [
+          "type",
+          "properties",
+          "geometry"
+        ]
+      }
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "tittel": {
+          "type": "string"
+        },
+        "produsertUtc": {
+          "type": "string"
+        },
+        "utgiver": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "tool": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string"
+            }
+          }
+        },
+        "elementer": {
+          "type": "number"
+        }
+      }
+    },
+    "items": {
+      "type": "null"
+    },
+    "$schema": {
+      "type": "string"
+    }
+  },
+  "meta": {
+    "tittel": "Kommune 4326.geojson.schema",
+    "produsertUtc": "2019-09-27T12:31:58.505Z",
+    "utgiver": "Artsdatabanken",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/kommune-kart/master/kommune_4326.geojson.schema.json",
+    "tool": {
+      "name": "kommune-kart-lastejobb",
+      "url": "https://github.com/Artsdatabanken/kommune-kart-lastejobb"
+    },
+    "elementer": 3
+  }
+}

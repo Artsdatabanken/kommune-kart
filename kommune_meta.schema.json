@@ -1,0 +1,97 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "areal": {
+            "type": "number"
+          },
+          "autorkode": {
+            "type": "string"
+          },
+          "bbox": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "navn": {
+            "type": "object",
+            "properties": {
+              "nob": {
+                "type": "string"
+              },
+              "sma": {
+                "type": "string"
+              },
+              "sme": {
+                "type": "string"
+              },
+              "fkv": {
+                "type": "string"
+              },
+              "smj": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "required": [
+          "areal",
+          "autorkode",
+          "bbox",
+          "navn"
+        ]
+      }
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "tittel": {
+          "type": "string"
+        },
+        "produsertUtc": {
+          "type": "string"
+        },
+        "utgiver": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "tool": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string"
+            }
+          }
+        },
+        "elementer": {
+          "type": "number"
+        }
+      }
+    },
+    "$schema": {
+      "type": "string"
+    }
+  },
+  "meta": {
+    "tittel": "Kommune meta.schema",
+    "produsertUtc": "2019-09-27T12:31:56.899Z",
+    "utgiver": "Artsdatabanken",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/kommune-kart/master/kommune_meta.schema.json",
+    "tool": {
+      "name": "kommune-kart-lastejobb",
+      "url": "https://github.com/Artsdatabanken/kommune-kart-lastejobb"
+    },
+    "elementer": 3
+  }
+}
