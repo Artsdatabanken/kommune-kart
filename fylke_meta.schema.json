@@ -19,7 +19,7 @@
               "type": "number"
             }
           },
-          "navn": {
+          "tittel": {
             "type": "object",
             "properties": {
               "nob": {
@@ -35,7 +35,7 @@
           "areal",
           "autorkode",
           "bbox",
-          "navn"
+          "tittel"
         ]
       }
     },
@@ -76,7 +76,7 @@
   },
   "meta": {
     "tittel": "Fylke meta.schema",
-    "produsertUtc": "2019-09-27T12:31:56.558Z",
+    "produsertUtc": "2019-10-08T14:31:54.132Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/kommune-kart/master/fylke_meta.schema.json",
     "tool": {
