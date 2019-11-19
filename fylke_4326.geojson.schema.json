@@ -109,14 +109,11 @@
     },
     "items": {
       "type": "null"
-    },
-    "$schema": {
-      "type": "string"
     }
   },
   "meta": {
     "tittel": "Fylke 4326.geojson.schema",
-    "produsertUtc": "2019-10-08T14:26:27.580Z",
+    "produsertUtc": "2019-11-19T15:21:19.100Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/kommune-kart/master/fylke_4326.geojson.schema.json",
     "tool": {

@@ -265,7 +265,7 @@
   ],
   "meta": {
     "tittel": "Fylke 4326",
-    "produsertUtc": "2019-10-08T14:26:27.532Z",
+    "produsertUtc": "2019-11-19T15:21:19.050Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/kommune-kart/master/fylke_4326.geojson",
     "tool": {
@@ -273,6 +273,5 @@
       "url": "https://github.com/Artsdatabanken/kommune-kart-lastejobb"
     },
     "elementer": 4
-  },
-  "$schema": "https://raw.githubusercontent.com/Artsdatabanken/kommune-kart/master/fylke_4326.schema.json#"
+  }
 }
