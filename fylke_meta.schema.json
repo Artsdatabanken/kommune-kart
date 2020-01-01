@@ -22,10 +22,16 @@
           "tittel": {
             "type": "object",
             "properties": {
+              "fkv": {
+                "type": "string"
+              },
               "nob": {
                 "type": "string"
               },
               "sme": {
+                "type": "string"
+              },
+              "sma": {
                 "type": "string"
               }
             }
@@ -76,7 +82,7 @@
   },
   "meta": {
     "tittel": "Fylke meta.schema",
-    "produsertUtc": "2019-11-19T15:21:17.772Z",
+    "produsertUtc": "2020-01-01T04:27:27.206Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/kommune-kart/master/fylke_meta.schema.json",
     "tool": {
