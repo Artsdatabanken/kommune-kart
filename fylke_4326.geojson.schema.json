@@ -41,6 +41,12 @@
                   "nob": {
                     "type": "string"
                   },
+                  "sma": {
+                    "type": "string"
+                  },
+                  "fkv": {
+                    "type": "string"
+                  },
                   "sme": {
                     "type": "string"
                   }
@@ -49,7 +55,7 @@
               "autorkode": {
                 "type": "string"
               },
-              "code": {
+              "kode": {
                 "type": "string"
               }
             }
@@ -113,7 +119,7 @@
   },
   "meta": {
     "tittel": "Fylke 4326.geojson.schema",
-    "produsertUtc": "2019-11-19T15:21:19.100Z",
+    "produsertUtc": "2020-01-02T13:14:43.437Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/kommune-kart/master/fylke_4326.geojson.schema.json",
     "tool": {

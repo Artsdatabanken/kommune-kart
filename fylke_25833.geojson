@@ -15,7 +15,7 @@
           "nob": "Oslo"
         },
         "autorkode": "03",
-        "code": "AO-TO-FL-03"
+        "kode": "AO-TO-FL-03"
       },
       "geometry": {
         "type": "Polygon",
@@ -29,7 +29,7 @@
           "nob": "Rogaland"
         },
         "autorkode": "11",
-        "code": "AO-TO-FL-11"
+        "kode": "AO-TO-FL-11"
       },
       "geometry": {
         "type": "Polygon",
@@ -43,7 +43,7 @@
           "nob": "Møre og Romsdal"
         },
         "autorkode": "15",
-        "code": "AO-TO-FL-15"
+        "kode": "AO-TO-FL-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -57,7 +57,7 @@
           "nob": "Nordland"
         },
         "autorkode": "18",
-        "code": "AO-TO-FL-18"
+        "kode": "AO-TO-FL-18"
       },
       "geometry": {
         "type": "Polygon",
@@ -71,7 +71,7 @@
           "nob": "Viken"
         },
         "autorkode": "30",
-        "code": "AO-TO-FL-30"
+        "kode": "AO-TO-FL-30"
       },
       "geometry": {
         "type": "Polygon",
@@ -85,7 +85,7 @@
           "nob": "Innlandet"
         },
         "autorkode": "34",
-        "code": "AO-TO-FL-34"
+        "kode": "AO-TO-FL-34"
       },
       "geometry": {
         "type": "Polygon",
@@ -99,7 +99,7 @@
           "nob": "Vestfold og Telemark"
         },
         "autorkode": "38",
-        "code": "AO-TO-FL-38"
+        "kode": "AO-TO-FL-38"
       },
       "geometry": {
         "type": "Polygon",
@@ -113,7 +113,7 @@
           "nob": "Agder"
         },
         "autorkode": "42",
-        "code": "AO-TO-FL-42"
+        "kode": "AO-TO-FL-42"
       },
       "geometry": {
         "type": "Polygon",
@@ -127,7 +127,7 @@
           "nob": "Vestland"
         },
         "autorkode": "46",
-        "code": "AO-TO-FL-46"
+        "kode": "AO-TO-FL-46"
       },
       "geometry": {
         "type": "Polygon",
@@ -142,7 +142,7 @@
           "sma": "Trööndelage"
         },
         "autorkode": "50",
-        "code": "AO-TO-FL-50"
+        "kode": "AO-TO-FL-50"
       },
       "geometry": {
         "type": "Polygon",
@@ -158,7 +158,7 @@
           "sme": "Romsa ja Finnmárku"
         },
         "autorkode": "54",
-        "code": "AO-TO-FL-54"
+        "kode": "AO-TO-FL-54"
       },
       "geometry": {
         "type": "Polygon",
@@ -168,7 +168,7 @@
   ],
   "meta": {
     "tittel": "Fylke 25833",
-    "produsertUtc": "2020-01-01T04:27:27.702Z",
+    "produsertUtc": "2020-01-02T13:14:42.808Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/kommune-kart/master/fylke_25833.geojson",
     "tool": {

@@ -58,7 +58,7 @@
               "autorkode": {
                 "type": "string"
               },
-              "code": {
+              "kode": {
                 "type": "string"
               }
             }
@@ -122,7 +122,7 @@
   },
   "meta": {
     "tittel": "Kommune 4326.geojson.schema",
-    "produsertUtc": "2019-11-19T15:21:19.854Z",
+    "produsertUtc": "2020-01-02T13:14:44.101Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/kommune-kart/master/kommune_4326.geojson.schema.json",
     "tool": {
