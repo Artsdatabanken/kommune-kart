@@ -1,131 +1,260 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "type": "object",
-  "properties": {
-    "type": {
-      "type": "string"
-    },
-    "name": {
-      "type": "string"
-    },
-    "crs": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string"
-        },
+  "items": {
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "properties": {
+      "crs": {
         "properties": {
-          "type": "object",
           "properties": {
-            "name": {
-              "type": "string"
-            }
-          }
-        }
-      }
-    },
-    "features": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
+            "properties": {
+              "name": {
+                "type": "string"
+              }
+            },
+            "type": "object"
+          },
           "type": {
             "type": "string"
-          },
+          }
+        },
+        "type": "object"
+      },
+      "features": {
+        "items": {
           "properties": {
-            "type": "object",
-            "properties": {
-              "navn": {
-                "type": "object",
-                "properties": {
-                  "nob": {
-                    "type": "string"
+            "geometry": {
+              "properties": {
+                "coordinates": {
+                  "items": {
+                    "type": "array"
                   },
-                  "sma": {
-                    "type": "string"
-                  },
-                  "fkv": {
-                    "type": "string"
-                  },
-                  "sme": {
-                    "type": "string"
-                  }
-                }
-              },
-              "autorkode": {
-                "type": "string"
-              },
-              "kode": {
-                "type": "string"
-              }
-            }
-          },
-          "geometry": {
-            "type": "object",
-            "properties": {
-              "type": {
-                "type": "string"
-              },
-              "coordinates": {
-                "type": "array",
-                "items": {
                   "type": "array"
+                },
+                "type": {
+                  "type": "string"
                 }
-              }
-            }
-          }
-        },
-        "required": [
-          "type",
-          "properties",
-          "geometry"
-        ]
-      }
-    },
-    "meta": {
-      "type": "object",
-      "properties": {
-        "tittel": {
-          "type": "string"
-        },
-        "produsertUtc": {
-          "type": "string"
-        },
-        "utgiver": {
-          "type": "string"
-        },
-        "url": {
-          "type": "string"
-        },
-        "tool": {
-          "type": "object",
-          "properties": {
-            "name": {
-              "type": "string"
+              },
+              "type": "object"
             },
-            "url": {
+            "properties": {
+              "properties": {
+                "autorkode": {
+                  "type": "string"
+                },
+                "kode": {
+                  "type": "string"
+                },
+                "navn": {
+                  "properties": {
+                    "fkv": {
+                      "type": "string"
+                    },
+                    "nob": {
+                      "type": "string"
+                    },
+                    "sma": {
+                      "type": "string"
+                    },
+                    "sme": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                }
+              },
+              "type": "object"
+            },
+            "type": {
               "type": "string"
             }
+          },
+          "required": [
+            "type",
+            "properties",
+            "geometry"
+          ],
+          "type": "object"
+        },
+        "type": "array"
+      },
+      "items": {
+        "type": "null"
+      },
+      "meta": {
+        "properties": {
+          "elementer": {
+            "type": "number"
+          },
+          "produsertUtc": {
+            "type": "string"
+          },
+          "source": {
+            "items": {
+              "properties": {
+                "elementer": {
+                  "type": "number"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "produsertUtc": {
+                  "type": "string"
+                },
+                "source": {
+                  "items": {
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "name"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "tittel": {
+                  "type": "string"
+                },
+                "tool": {
+                  "properties": {
+                    "commit": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "url": {
+                  "type": "null"
+                },
+                "utgiver": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "tittel",
+                "produsertUtc",
+                "utgiver",
+                "url",
+                "tool",
+                "elementer",
+                "source"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "tittel": {
+            "type": "string"
+          },
+          "tool": {
+            "properties": {
+              "commit": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              }
+            },
+            "type": "object"
+          },
+          "url": {
+            "type": "null"
+          },
+          "utgiver": {
+            "type": "string"
           }
         },
-        "elementer": {
-          "type": "number"
-        }
+        "type": "object"
+      },
+      "name": {
+        "type": "string"
+      },
+      "type": {
+        "type": "string"
       }
     },
-    "items": {
-      "type": "null"
-    }
+    "type": "object"
   },
   "meta": {
     "tittel": "Fylke 4326.geojson.schema",
-    "produsertUtc": "2020-01-02T13:14:43.437Z",
+    "produsertUtc": "2020-04-29T12:05:35.143Z",
     "utgiver": "Artsdatabanken",
-    "url": "https://raw.githubusercontent.com/Artsdatabanken/kommune-kart/master/fylke_4326.geojson.schema.json",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/kommune-kart/tree/fylke_4326.geojson.schema.json",
     "tool": {
       "name": "kommune-kart-lastejobb",
-      "url": "https://github.com/Artsdatabanken/kommune-kart-lastejobb"
+      "url": "https://github.com/Artsdatabanken/kommune-kart-lastejobb",
+      "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb/master/ac827d3a459064f3072c1b76bf9edcb855712ecb"
     },
-    "elementer": 3
+    "elementer": 3,
+    "source": [
+      {
+        "name": "fylke_25833.geojson",
+        "tittel": "Fylke",
+        "produsertUtc": "2020-04-29T12:04:13.199Z",
+        "utgiver": "Artsdatabanken",
+        "url": null,
+        "tool": {
+          "name": "kommune-kart-lastejobb",
+          "url": "https://github.com/Artsdatabanken/kommune-kart-lastejobb",
+          "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb/master/ac827d3a459064f3072c1b76bf9edcb855712ecb"
+        },
+        "elementer": 11,
+        "source": [
+          {
+            "name": "Basisdata_0000_Norge_25833_Fylker_GEOJSON.geojson"
+          }
+        ]
+      },
+      {
+        "name": "kommune_25833.geojson",
+        "tittel": "Kommune",
+        "produsertUtc": "2020-04-29T12:04:15.087Z",
+        "utgiver": "Artsdatabanken",
+        "url": null,
+        "tool": {
+          "name": "kommune-kart-lastejobb",
+          "url": "https://github.com/Artsdatabanken/kommune-kart-lastejobb",
+          "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb/master/ac827d3a459064f3072c1b76bf9edcb855712ecb"
+        },
+        "elementer": 363,
+        "source": [
+          {
+            "name": "Basisdata_0000_Norge_25833_Fylker_GEOJSON.geojson"
+          },
+          {
+            "name": "Basisdata_0000_Norge_25833_Kommuner_GEOJSON.geojson"
+          }
+        ]
+      },
+      {
+        "name": "fylke_4326.geojson",
+        "tittel": "Fylke",
+        "produsertUtc": "2020-04-29T12:04:13.199Z",
+        "utgiver": "Artsdatabanken",
+        "url": null,
+        "tool": {
+          "name": "kommune-kart-lastejobb",
+          "url": "https://github.com/Artsdatabanken/kommune-kart-lastejobb",
+          "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb/master/ac827d3a459064f3072c1b76bf9edcb855712ecb"
+        },
+        "elementer": 11,
+        "source": [
+          {
+            "name": "Basisdata_0000_Norge_25833_Fylker_GEOJSON.geojson"
+          }
+        ]
+      }
+    ]
   }
 }
