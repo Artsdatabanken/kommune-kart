@@ -2,9 +2,6 @@
   "items": {
     "$schema": "http://json-schema.org/draft-04/schema#",
     "properties": {
-      "$schema": {
-        "type": "string"
-      },
       "crs": {
         "properties": {
           "properties": {
@@ -58,6 +55,9 @@
                       "type": "string"
                     },
                     "sme": {
+                      "type": "string"
+                    },
+                    "smj": {
                       "type": "string"
                     }
                   },
@@ -178,31 +178,31 @@
   },
   "meta": {
     "tittel": "Fylke 25833.geojson.schema",
-    "produsertUtc": "2020-09-14T06:45:55.859Z",
+    "produsertUtc": "2022-04-04T11:03:06.925Z",
     "utgiver": "Artsdatabanken",
-    "url": "https://raw.githubusercontent.com/Artsdatabanken/kommune-kart/master/fylke_25833.geojson.schema.json",
+    "url": null,
     "tool": {
       "name": "kommune-kart-lastejobb",
       "url": "https://github.com/Artsdatabanken/kommune-kart-lastejobb",
-      "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb/master/99f7c3eb0b9c22a3d47be157fdfc1f8eafb56150"
+      "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb.git/master/baefbadd59301c21ea0efe2e65c08c43ed3f6d3d"
     },
     "elementer": 3,
     "source": [
       {
         "name": "fylke_25833.geojson",
         "tittel": "Fylke",
-        "produsertUtc": "2020-09-14T06:45:35.688Z",
+        "produsertUtc": "2022-04-04T11:01:44.957Z",
         "utgiver": "Artsdatabanken",
         "url": null,
         "tool": {
           "name": "kommune-kart-lastejobb",
           "url": "https://github.com/Artsdatabanken/kommune-kart-lastejobb",
-          "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb/master/99f7c3eb0b9c22a3d47be157fdfc1f8eafb56150"
+          "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb.git/master/baefbadd59301c21ea0efe2e65c08c43ed3f6d3d"
         },
         "elementer": 11,
         "source": [
           {
-            "name": "Basisdata_0000_Norge_25833_Fylker_GEOJSON.geojson"
+            "name": "Basisdata_0000_Norge_25833_Fylker_GeoJSON.geojson"
           }
         ]
       }
