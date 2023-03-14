@@ -97,7 +97,7 @@
                       "tool": {
                         "properties": {
                           "commit": {
-                            "type": "null"
+                            "type": "string"
                           },
                           "name": {
                             "type": "string"
@@ -125,7 +125,7 @@
                 "tool": {
                   "properties": {
                     "commit": {
-                      "type": "null"
+                      "type": "string"
                     },
                     "name": {
                       "type": "string"
@@ -160,7 +160,7 @@
           "tool": {
             "properties": {
               "commit": {
-                "type": "null"
+                "type": "string"
               },
               "name": {
                 "type": "string"
@@ -185,36 +185,36 @@
   },
   "meta": {
     "tittel": "Fylke meta.schema",
-    "produsertUtc": "2023-03-14T09:31:32.503Z",
+    "produsertUtc": "2023-03-14T13:06:10.306Z",
     "utgiver": "Artsdatabanken",
     "url": null,
     "tool": {
       "name": "@artsdatabanken/lastejobb",
-      "commit": null
+      "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb/master/f0a11d57e3a0a3be6a1a426a5e49a52f97963dcd"
     },
     "elementer": 3,
     "source": [
       {
         "name": "fylke_meta.json",
         "tittel": "Fylke meta",
-        "produsertUtc": "2023-03-14T09:31:31.993Z",
+        "produsertUtc": "2023-03-14T13:06:09.795Z",
         "utgiver": "Artsdatabanken",
         "url": null,
         "tool": {
           "name": "@artsdatabanken/lastejobb",
-          "commit": null
+          "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb/master/f0a11d57e3a0a3be6a1a426a5e49a52f97963dcd"
         },
         "elementer": 11,
         "source": [
           {
             "name": "fylke_25833.geojson",
             "tittel": "Fylke",
-            "produsertUtc": "2023-03-14T09:31:01.784Z",
+            "produsertUtc": "2023-03-14T13:05:39.044Z",
             "utgiver": "Artsdatabanken",
             "url": null,
             "tool": {
               "name": "@artsdatabanken/lastejobb",
-              "commit": null
+              "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb/master/f0a11d57e3a0a3be6a1a426a5e49a52f97963dcd"
             },
             "elementer": 11,
             "source": [
@@ -228,12 +228,12 @@
       {
         "name": "fylke_4326.geojson",
         "tittel": "Fylke",
-        "produsertUtc": "2023-03-14T09:31:01.784Z",
+        "produsertUtc": "2023-03-14T13:05:39.044Z",
         "utgiver": "Artsdatabanken",
         "url": null,
         "tool": {
           "name": "@artsdatabanken/lastejobb",
-          "commit": null
+          "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb/master/f0a11d57e3a0a3be6a1a426a5e49a52f97963dcd"
         },
         "elementer": 11,
         "source": [
