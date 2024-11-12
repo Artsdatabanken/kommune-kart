@@ -1,25 +1,40 @@
 {
   "items": [
     {
-      "areal": 116133187607,
-      "autorkode": "54",
+      "areal": 74557423374,
+      "autorkode": "56",
       "bbox": [
-        524161.05000000005,
-        7584800,
-        1121940.5900000003,
+        701859.74,
+        7634980.63,
+        1121940.59,
         7962743.58
       ],
       "tittel": {
-        "fkv": "Tromssa ja Finmarkku",
-        "nob": "Troms og Finnmark",
-        "sme": "Romsa ja Finnmárku"
+        "fkv": "Finmarkku",
+        "nob": "Finnmark",
+        "sme": "Finnmárku"
       }
     },
     {
-      "areal": 59688415776,
+      "areal": 41575743208,
+      "autorkode": "55",
+      "bbox": [
+        524161.05,
+        7584800,
+        805691.25,
+        7853460.76
+      ],
+      "tittel": {
+        "fkv": "Tromssa",
+        "nob": "Troms",
+        "sme": "Romsa"
+      }
+    },
+    {
+      "areal": 59688415811,
       "autorkode": "50",
       "bbox": [
-        138033.65999999997,
+        138033.66,
         6911983.93,
         468357.58,
         7268156.83
@@ -30,25 +45,25 @@
       }
     },
     {
-      "areal": 49865218309,
+      "areal": 49865218490,
       "autorkode": "46",
       "bbox": [
-        -87974.67999999982,
+        -87974.68,
         6632997.16,
-        144444.42999999993,
-        6958283.480000001
+        144444.43,
+        6958283.48
       ],
       "tittel": {
         "nob": "Vestland"
       }
     },
     {
-      "areal": 23057710199,
+      "areal": 23057698197,
       "autorkode": "42",
       "bbox": [
-        -21808.940000000002,
-        6426048.440000001,
-        190403.8500000001,
+        -21808.94,
+        6426048.44,
+        190403.85,
         6640697.51
       ],
       "tittel": {
@@ -56,49 +71,88 @@
       }
     },
     {
-      "areal": 20242843630,
-      "autorkode": "38",
+      "areal": 16197163992,
+      "autorkode": "40",
       "bbox": [
-        56640.04999999999,
+        56640.05,
         6508189.92,
-        251957.29999999996,
-        6691903.060000001
+        208835.05,
+        6691903.06
       ],
       "tittel": {
-        "nob": "Vestfold og Telemark"
+        "nob": "Telemark"
       }
     },
     {
-      "areal": 52111830347,
+      "areal": 4045679582,
+      "autorkode": "39",
+      "bbox": [
+        199412.86,
+        6519859.49,
+        251957.3,
+        6624890.31
+      ],
+      "tittel": {
+        "nob": "Vestfold"
+      }
+    },
+    {
+      "areal": 52111830416,
       "autorkode": "34",
       "bbox": [
         100036.06,
         6637904,
-        386150.05000000005,
-        6961057.210000001
+        386150.05,
+        6961057.21
       ],
       "tittel": {
         "nob": "Innlandet"
       }
     },
     {
-      "areal": 26803915312,
-      "autorkode": "30",
+      "areal": 14754678186,
+      "autorkode": "33",
       "bbox": [
-        82868.22000000015,
-        6521820.68,
-        328157.64,
+        82868.22,
+        6597562.76,
+        255778.16,
         6791455.28
       ],
       "tittel": {
-        "nob": "Viken"
+        "nob": "Buskerud"
       }
     },
     {
-      "areal": 80505891741,
+      "areal": 6191307902,
+      "autorkode": "32",
+      "bbox": [
+        235189.7,
+        6599443.23,
+        328157.64,
+        6724967.35
+      ],
+      "tittel": {
+        "nob": "Akershus"
+      }
+    },
+    {
+      "areal": 4895859303,
+      "autorkode": "31",
+      "bbox": [
+        245176.76,
+        6521820.68,
+        319189.3,
+        6631766.94
+      ],
+      "tittel": {
+        "nob": "Østfold"
+      }
+    },
+    {
+      "areal": 80505890462,
       "autorkode": "18",
       "bbox": [
-        295338.32999999996,
+        295338.33,
         7203714.83,
         630563.02,
         7721399.97
@@ -109,38 +163,38 @@
       }
     },
     {
-      "areal": 25548792434,
+      "areal": 25548792338,
       "autorkode": "15",
       "bbox": [
-        -25091.800000000047,
+        -25091.8,
         6894853.42,
-        212825.9300000001,
-        7092052.089999999
+        212825.93,
+        7092052.09
       ],
       "tittel": {
         "nob": "Møre og Romsdal"
       }
     },
     {
-      "areal": 16630506754,
+      "areal": 16630506727,
       "autorkode": "11",
       "bbox": [
-        -99551.20999999996,
-        6466105.140000001,
-        62133.76999999996,
-        6664216.860000001
+        -99551.21,
+        6466105.14,
+        62133.77,
+        6664216.86
       ],
       "tittel": {
         "nob": "Rogaland"
       }
     },
     {
-      "areal": 481034651,
+      "areal": 481034619,
       "autorkode": "03",
       "bbox": [
-        248657.28000000003,
+        248657.28,
         6637442.11,
-        273925.9200000003,
+        273925.92,
         6674528.68
       ],
       "tittel": {
@@ -150,38 +204,41 @@
   ],
   "meta": {
     "tittel": "Fylke meta",
-    "produsertUtc": "2023-03-14T13:06:10.303Z",
+    "produsertUtc": "2024-11-12T14:24:19.376Z",
     "utgiver": "Artsdatabanken",
     "url": null,
     "tool": {
-      "name": "@artsdatabanken/lastejobb",
-      "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb/master/f0a11d57e3a0a3be6a1a426a5e49a52f97963dcd"
+      "name": "kommune-kart-lastejobb",
+      "url": "https://github.com/Artsdatabanken/kommune-kart-lastejobb",
+      "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb.git/master/f0a11d57e3a0a3be6a1a426a5e49a52f97963dcd"
     },
-    "elementer": 11,
+    "elementer": 15,
     "source": [
       {
         "name": "fylke_meta.json",
         "tittel": "Fylke meta",
-        "produsertUtc": "2023-03-14T13:06:09.795Z",
+        "produsertUtc": "2024-11-12T14:24:18.771Z",
         "utgiver": "Artsdatabanken",
         "url": null,
         "tool": {
-          "name": "@artsdatabanken/lastejobb",
-          "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb/master/f0a11d57e3a0a3be6a1a426a5e49a52f97963dcd"
+          "name": "kommune-kart-lastejobb",
+          "url": "https://github.com/Artsdatabanken/kommune-kart-lastejobb",
+          "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb.git/master/f0a11d57e3a0a3be6a1a426a5e49a52f97963dcd"
         },
-        "elementer": 11,
+        "elementer": 15,
         "source": [
           {
             "name": "fylke_25833.geojson",
             "tittel": "Fylke",
-            "produsertUtc": "2023-03-14T13:05:39.044Z",
+            "produsertUtc": "2024-11-12T14:23:52.722Z",
             "utgiver": "Artsdatabanken",
             "url": null,
             "tool": {
-              "name": "@artsdatabanken/lastejobb",
-              "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb/master/f0a11d57e3a0a3be6a1a426a5e49a52f97963dcd"
+              "name": "kommune-kart-lastejobb",
+              "url": "https://github.com/Artsdatabanken/kommune-kart-lastejobb",
+              "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb.git/master/f0a11d57e3a0a3be6a1a426a5e49a52f97963dcd"
             },
-            "elementer": 11,
+            "elementer": 15,
             "source": [
               {
                 "name": "Basisdata_0000_Norge_25833_Fylker_GeoJSON.geojson"
@@ -193,14 +250,15 @@
       {
         "name": "fylke_4326.geojson",
         "tittel": "Fylke",
-        "produsertUtc": "2023-03-14T13:05:39.044Z",
+        "produsertUtc": "2024-11-12T14:23:52.722Z",
         "utgiver": "Artsdatabanken",
         "url": null,
         "tool": {
-          "name": "@artsdatabanken/lastejobb",
-          "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb/master/f0a11d57e3a0a3be6a1a426a5e49a52f97963dcd"
+          "name": "kommune-kart-lastejobb",
+          "url": "https://github.com/Artsdatabanken/kommune-kart-lastejobb",
+          "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb.git/master/f0a11d57e3a0a3be6a1a426a5e49a52f97963dcd"
         },
-        "elementer": 11,
+        "elementer": 15,
         "source": [
           {
             "name": "Basisdata_0000_Norge_25833_Fylker_GeoJSON.geojson"

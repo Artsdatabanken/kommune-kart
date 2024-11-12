@@ -40,7 +40,25 @@
                 "autorkode": {
                   "type": "string"
                 },
+                "gyldigFra": {
+                  "type": "string"
+                },
+                "gyldigTil": {
+                  "type": "null"
+                },
+                "identifikasjon.Identifikasjon.lokalId": {
+                  "type": "string"
+                },
+                "identifikasjon.Identifikasjon.navnerom": {
+                  "type": "string"
+                },
+                "identifikasjon.Identifikasjon.versjonId": {
+                  "type": "string"
+                },
                 "kode": {
+                  "type": "string"
+                },
+                "kommunenavn": {
                   "type": "string"
                 },
                 "navn": {
@@ -62,6 +80,9 @@
                     }
                   },
                   "type": "object"
+                },
+                "samiskForvaltningsområde": {
+                  "type": "boolean"
                 }
               },
               "type": "object"
@@ -126,6 +147,9 @@
                     },
                     "name": {
                       "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
                     }
                   },
                   "type": "object"
@@ -161,6 +185,9 @@
               },
               "name": {
                 "type": "string"
+              },
+              "url": {
+                "type": "string"
               }
             },
             "type": "object"
@@ -185,26 +212,28 @@
   },
   "meta": {
     "tittel": "Kommune 4326.geojson.schema",
-    "produsertUtc": "2023-03-14T13:06:12.174Z",
+    "produsertUtc": "2024-11-12T14:24:21.240Z",
     "utgiver": "Artsdatabanken",
     "url": null,
     "tool": {
-      "name": "@artsdatabanken/lastejobb",
-      "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb/master/f0a11d57e3a0a3be6a1a426a5e49a52f97963dcd"
+      "name": "kommune-kart-lastejobb",
+      "url": "https://github.com/Artsdatabanken/kommune-kart-lastejobb",
+      "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb.git/master/f0a11d57e3a0a3be6a1a426a5e49a52f97963dcd"
     },
     "elementer": 3,
     "source": [
       {
         "name": "fylke_25833.geojson",
         "tittel": "Fylke",
-        "produsertUtc": "2023-03-14T13:05:39.044Z",
+        "produsertUtc": "2024-11-12T14:23:52.722Z",
         "utgiver": "Artsdatabanken",
         "url": null,
         "tool": {
-          "name": "@artsdatabanken/lastejobb",
-          "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb/master/f0a11d57e3a0a3be6a1a426a5e49a52f97963dcd"
+          "name": "kommune-kart-lastejobb",
+          "url": "https://github.com/Artsdatabanken/kommune-kart-lastejobb",
+          "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb.git/master/f0a11d57e3a0a3be6a1a426a5e49a52f97963dcd"
         },
-        "elementer": 11,
+        "elementer": 15,
         "source": [
           {
             "name": "Basisdata_0000_Norge_25833_Fylker_GeoJSON.geojson"
@@ -214,14 +243,15 @@
       {
         "name": "kommune_25833.geojson",
         "tittel": "Kommune",
-        "produsertUtc": "2023-03-14T13:05:40.341Z",
+        "produsertUtc": "2024-11-12T14:23:54.212Z",
         "utgiver": "Artsdatabanken",
         "url": null,
         "tool": {
-          "name": "@artsdatabanken/lastejobb",
-          "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb/master/f0a11d57e3a0a3be6a1a426a5e49a52f97963dcd"
+          "name": "kommune-kart-lastejobb",
+          "url": "https://github.com/Artsdatabanken/kommune-kart-lastejobb",
+          "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb.git/master/f0a11d57e3a0a3be6a1a426a5e49a52f97963dcd"
         },
-        "elementer": 363,
+        "elementer": 357,
         "source": [
           {
             "name": "Basisdata_0000_Norge_25833_Fylker_GeoJSON.geojson"
@@ -234,14 +264,15 @@
       {
         "name": "fylke_4326.geojson",
         "tittel": "Fylke",
-        "produsertUtc": "2023-03-14T13:05:39.044Z",
+        "produsertUtc": "2024-11-12T14:23:52.722Z",
         "utgiver": "Artsdatabanken",
         "url": null,
         "tool": {
-          "name": "@artsdatabanken/lastejobb",
-          "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb/master/f0a11d57e3a0a3be6a1a426a5e49a52f97963dcd"
+          "name": "kommune-kart-lastejobb",
+          "url": "https://github.com/Artsdatabanken/kommune-kart-lastejobb",
+          "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb.git/master/f0a11d57e3a0a3be6a1a426a5e49a52f97963dcd"
         },
-        "elementer": 11,
+        "elementer": 15,
         "source": [
           {
             "name": "Basisdata_0000_Norge_25833_Fylker_GeoJSON.geojson"
@@ -251,14 +282,15 @@
       {
         "name": "kommune_4326.geojson",
         "tittel": "Kommune",
-        "produsertUtc": "2023-03-14T13:05:40.341Z",
+        "produsertUtc": "2024-11-12T14:23:54.212Z",
         "utgiver": "Artsdatabanken",
         "url": null,
         "tool": {
-          "name": "@artsdatabanken/lastejobb",
-          "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb/master/f0a11d57e3a0a3be6a1a426a5e49a52f97963dcd"
+          "name": "kommune-kart-lastejobb",
+          "url": "https://github.com/Artsdatabanken/kommune-kart-lastejobb",
+          "commit": "https://github.com/Artsdatabanken/kommune-kart-lastejobb.git/master/f0a11d57e3a0a3be6a1a426a5e49a52f97963dcd"
         },
-        "elementer": 363,
+        "elementer": 357,
         "source": [
           {
             "name": "Basisdata_0000_Norge_25833_Fylker_GeoJSON.geojson"
